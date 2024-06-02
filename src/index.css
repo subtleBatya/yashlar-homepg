@@ -2,6 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+    @apply mx-auto w-[10/14]
+}
+.component {
+    @apply mx-auto w-[8/12]
+}
+
+.textDark {
+    @apply text-[#393939];
+  }
+  
+  .textGold {
+    @apply text-[#D3AA65] border-[#D3AA65];
+  
+  }
+  .textBlue {
+    @apply text-[#184CD3];
+  }
+  .bgBlue {
+    @apply bg-[#184CD3]
+  }
+  
+  .textGray {
+    @apply text-[#CFCFCF];
+  }
+  
+  .tabel {
+    @apply bg-[#FAFAFA] relative aspect-[5/3] font-semibold text-lg;
+  }
+
+bgBlue {
+    @apply bg-[#184CD3]
+}
+
+body {
+    background-color: #fff;
+    /* height: 200vh; */
+}
+
+.parent_image:hover .imageee{
+    transition: .3s;
+    transform: scale(1.1);
+    
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey; */
+    border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #E1E1E1;
+    border-radius: 8px;
+}
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   
  }
@@ -39,4 +104,3 @@ body {
     background: var(--color-white);
     
     /* background-image: url(./assets/bg_text.jpg); */
-}

@@ -1,11 +1,11 @@
 import React from "react";
-import uzynburc from '../../assets/uzyn8burc.png'
-import gysgaburc from '../../assets/gysga8burc.png'
-import ucgelin from '../../assets/ucgelin.png'
-import gozel from '../../assets/gozel.png'
-import left from '../../assets/8burc.png'
-import right from '../../assets/8burc.png'
-import news from '../../assets/newscyz.png'
+import uzynburc from '../../images/uzyn8burc.png'
+import gysgaburc from '../../images/gysga8burc.png'
+import ucgelin from '../../images/ucgelin.png'
+import gozel from '../../images/gozel.png'
+import left from '../../images/8burc.png'
+import right from '../../images/8burc.png'
+import news from '../../images/newscyz.png'
 
 const News = () => {
     return (

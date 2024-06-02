@@ -1,8 +1,8 @@
 import React from "react";
-import makalacyz from '../../assets/makalacyz.png'
-import makalarect from '../../assets/makalarect.png'
-import ucgelin from '../../assets/ucgelin.png'
-import gozel from '../../assets/gozel.png'
+import makalacyz from '../../images/makalacyz.png'
+import makalarect from '../../images/makalarect.png'
+import ucgelin from '../../images/ucgelin.png'
+import gozel from '../../images/gozel.png'
 const Makala = () => {
     return (
         <div id='makala' className='container '>

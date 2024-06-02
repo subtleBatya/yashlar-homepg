@@ -1,10 +1,10 @@
 import React from "react";
-import galery from '../../assets/galery.png'
-import volley from '../../assets/volleyball.png'
-import sapak from '../../assets/sapak.png'
-import basket from '../../assets/basket.png'
-import left from '../../assets/left.png'
-import right from '../../assets/right.png'
+import galery from '../../images/gallery.png'
+import volley from '../../images/volleyball.png'
+import sapak from '../../images/sapak.png'
+import basket from '../../images/basket.png'
+import left from '../../images/left.png'
+import right from '../../images/right.png'
 const Gallery = () => {
     return (
         <div id='gallery' className='container '>

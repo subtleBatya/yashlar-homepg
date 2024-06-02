@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import sekizburc from '../../assets/gysga8burc.png'
-import bina from '../../assets/bina.png'
-import menu from '../../assets/menu_FILL0_wght400_GRAD0_opsz24.svg'
+import sekizburc from '../../images/gysga8burc.png'
+import bina from '../../images/bina.png'
+import menu from '../../images/menu_FILL0_wght400_GRAD0_opsz24.svg'
 
 const Header = () => {
   const [nav, setNav] = useState(false);

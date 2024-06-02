@@ -1,10 +1,10 @@
 import React from "react";
-import multi from '../../assets/multicyzyk.png'
-import kitap from '../../assets/kitap.png'
-import gelinler from '../../assets/gelinler.png'
-import slide from '../../assets/slidecyzyk.png'
-import left from '../../assets/left.png'
-import right from '../../assets/right.png'
+import multi from '../../images/multicyzyk.png'
+import kitap from '../../images/kitap.png'
+import gelinler from '../../images/gelinler.png'
+import slide from '../../images/slidecyzyk.png'
+import left from '../../images/left.png'
+import right from '../../images/right.png'
 const Multi = () => {
     return (
         <div id='media' className='container '>
